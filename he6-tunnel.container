@@ -3,3 +3,8 @@ Name=he-tunnel
 Image=localhost/he-tunnel
 Network=host
 Capabilities=NET_ADMIN
+
+Environment="REMOTE_IPV4=X.X.X.X"
+Environment="LOCAL_IPV4=X.X.X.X"
+Environment="TUNNEL_IPV6=2001:XXXX:XXXX:XXXX::2/64"
+Environment="ROUTED_BLOCK=20001:XXXX:XXXX::/48"
