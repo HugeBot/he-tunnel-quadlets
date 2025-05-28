@@ -1,0 +1,5 @@
+[Container]
+Name=he-tunnel
+Image=localhost/he-tunnel
+Network=host
+Capabilities=NET_ADMIN
