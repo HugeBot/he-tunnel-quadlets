@@ -1,6 +1,6 @@
 [Container]
 Name=he-tunnel
-Image=localhost/he-tunnel
+Image=ghcr.io/hugebot/he-tunnel-quadlets:main
 Network=host
 Capabilities=NET_ADMIN
 
