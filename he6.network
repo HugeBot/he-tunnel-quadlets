@@ -1,0 +1,5 @@
+[Network]
+Driver=bridge
+IPv6=true
+Subnets=2001:470:xxxx:1::/64
+Gateway=20001:470:XXXX:1::1
